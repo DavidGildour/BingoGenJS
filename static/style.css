@@ -3,10 +3,15 @@
   margin-bottom: 10px;
 }
 
-.table, .btn-block {
-  width: 65%;
+.table {
+  background-color: #d1ffb1;
+  margin-bottom: 50px;
 }
-
+/*
+.btn-block {
+  width: 80%;
+}
+*/
 thead.bingo tr{
   height: inherit;
 }
@@ -21,7 +26,6 @@ thead.bingo tr{
 
 .bingo td, .bingo th{
   width: 20%;
-  background-color: #d1ffb1;
   background-image: url("./static/bg.gif");
   text-align: center;
   vertical-align: middle;
