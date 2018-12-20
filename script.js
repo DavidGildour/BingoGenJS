@@ -21,10 +21,16 @@ let shuffle = array => {
   return array;
 };
 
+let getRandomColor = () => {
+  return Math.floor(Math.random() * 255);
+};
+
 $(document).ready( () => {
   let len = $("td").length;
   $("#generate").click( () => {
     fields = shuffle(fields);
+    let [a, b, c] = [getRandomColor(), getRandomColor(), getRandomColor()];
+    $("table").css("background-color", `rgb(${a}, ${b}, ${c})`);
     for (let i = 0; i < len; i++){
       $("td").eq(i).html(fields[i]);
     }
