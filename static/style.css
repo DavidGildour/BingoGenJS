@@ -1,0 +1,28 @@
+.container {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.table, .btn-block {
+  width: 65%;
+}
+
+thead.bingo tr{
+  height: inherit;
+}
+
+.bingo tr{
+  height: 144.1px;
+}
+
+.bingo th{
+  font-size: 24px;
+}
+
+.bingo td, .bingo th{
+  width: 20%;
+  background-color: #d1ffb1;
+  background-image: url("./static/bg.gif");
+  text-align: center;
+  vertical-align: middle;
+}
