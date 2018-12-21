@@ -1,7 +1,6 @@
-Jest kotem
 Jest leworęczny
-Jest bliźniakiem
 Urodził się w tym samym roku co Ty
+Urodził się w tym samym miesiącu co Ty
 Zna co najmniej 2 obce języki
 Jest mugolem
 Połamał kości
@@ -9,7 +8,7 @@ Spóźnił się
 Boi się pająków
 Leciał samolotem
 Wspomni Sam Wiesz Kogo
-Przewróci szklankę
+Przewróci szklankę<br /><p class="footer">(przypadkiem, cwaniaku)</p>
 Wzniesie toast
 Będzie mieć na sobie coś czerwonego
 Ma dzieci
@@ -22,11 +21,16 @@ Zacznie śpiewać
 Umie gwizdać
 Ma widoczną bliznę
 Widział sowę
-Lorem ipsum
-Dolor sit amet
-Pierdnął
-Nie pierdnął
 Kichnął
-Rzyga przez balkon
 Stwierdził, że pierdoli
 Włączył Last Christmas
+Nie toleruje laktozy
+Nigdy nie jadł kalarepy
+Ma ulubioną parę skarpet
+Powie 'FASZERA NONSTOP'
+Udaje Hitlera<br /><p class="footer">(w sensie, że ma wąsy po tabace xD)</p>
+Zacytuje jakiś utwór Lonely Island
+Ma uczulenie na coś innego niż jakieś jedzonko
+Powie coś jednocześnie z drugą osobą
+Nie będzie mógł sobie czegoś przypomnieć
+Ma w portfelu 100 ziko<br /><p class="footer">:0</p>
