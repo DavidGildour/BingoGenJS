@@ -21,8 +21,8 @@ let shuffle = array => {
   return array;
 };
 
-let getRandomColor = () => {
-  return Math.floor(Math.random() * 255);
+let getRandomInt = (max) => {
+  return Math.floor(Math.random() * max);
 };
 
 $(document).ready( () => {
@@ -36,8 +36,8 @@ $(document).ready( () => {
 
   $("#generate").click( () => {
     fields = shuffle(fields);
-    let [a, b, c] = [getRandomColor(), getRandomColor(), getRandomColor()];
-    $("table").css("background-color", `rgb(${a}, ${b}, ${c})`);
+    let a = getRandomInt(360);
+    $("table").css("background-color", `hsl(${a}, 100%, 59%)`);
     for (let i = 0; i < len; i++){
       $("td").eq(i).html(fields[i]);
     }
