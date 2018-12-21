@@ -28,8 +28,12 @@ let getRandomColor = () => {
 $(document).ready( () => {
   let len = $("td").length;
 
-  $("#print").click( () => window.print() );
-  
+  $("#print").click( () => {
+    $("input").attr("type", "hidden");
+    window.print();
+    $("input").attr("type", "visible");
+  });
+
   $("#generate").click( () => {
     fields = shuffle(fields);
     let [a, b, c] = [getRandomColor(), getRandomColor(), getRandomColor()];
