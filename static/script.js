@@ -1,7 +1,7 @@
 let fields;
 
 let textFile = new XMLHttpRequest();
-textFile.open("GET", "./static/fields.txt", true);
+textFile.open("GET", "../static/fields.txt", true);
 textFile.onreadystatechange = () => {
   if (textFile.readyState == 4 && (textFile.status == 200 || textFile.status == 0)){
       fields = textFile.responseText.split("\n").slice(0, -1);
