@@ -29,15 +29,16 @@ $(document).ready( () => {
   let len = $("td").length;
 
   $("#print").click( () => {
-    $("input").attr("type", "hidden");
+    $(".noprint").attr("type", "hidden");
     window.print();
-    $("input").attr("type", "visible");
+    $(".noprint").attr("type", "visible");
   });
 
   $("#generate").click( () => {
     fields = shuffle(fields);
-    let a = getRandomInt(360);
-    $("table").css("background-color", `hsl(${a}, 100%, 59%)`);
+
+    $("table").css("background-image", `url("../static/bgs/${getRandomInt(9)}.gif")`);
+
     for (let i = 0; i < len; i++){
       $("td").eq(i).html(fields[i]);
     }

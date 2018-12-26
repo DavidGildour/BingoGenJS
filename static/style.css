@@ -4,7 +4,8 @@
 }
 
 .table {
-  background-color: #d1ffb1;
+  background-image: url("bgs/0.gif");
+  background-repeat: repeat;
 }
 /*
 .btn-block {
@@ -29,8 +30,6 @@ thead.bingo tr{
 
 .bingo td, .bingo th{
   width: 20%;
-  background-image: url("bgs/0.gif");
-  background-repeat: repeat;
   text-align: center;
   vertical-align: middle;
 }
