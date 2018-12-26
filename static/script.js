@@ -40,13 +40,13 @@ $(document).ready( () => {
     let colourPick = $("#colour:checked").attr("value");
 
     if (colourPick == "rand"){
-      $("table.bingo").css("background-image", `url("../static/bgs/${getRandomInt(9)}.gif")`);
+      $("div.cell").css("background-image", `url("../static/bgs/${getRandomInt(9)}.gif")`);
     } else {
-      $("table.bingo").css("background-image", `url("../static/bgs/${colourPick}.gif")`);
+      $("div.cell").css("background-image", `url("../static/bgs/${colourPick}.gif")`);
     }
 
     for (let i = 0; i < len; i++){
-      $("table.bingo td").eq(i).html(fields[i]);
+      $("table.bingo td div.cell").eq(i).html(fields[i]);
     }
   });
 });
