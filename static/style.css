@@ -7,11 +7,16 @@
   background-image: url("bgs/0.gif");
   background-repeat: repeat;
 }
-/*
-.btn-block {
-  width: 80%;
+
+.noprint {
+  background-image: none;
 }
-*/
+
+.noprint td{
+  border: none;
+  text-align: center;
+}
+
 .footer {
   font-size: 9px;
 }
