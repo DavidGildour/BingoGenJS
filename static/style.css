@@ -1,3 +1,7 @@
+* {
+    -webkit-print-color-adjust: exact !important;   /* Chrome, Safari */
+    color-adjust: exact !important;                 /*Firefox*/
+}
 .container {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -38,3 +42,21 @@ thead.bingo tr{
   text-align: center;
   vertical-align: middle;
 }
+
+div.colourSample{
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  background-repeat: repeat;
+}
+
+.c0 {background-image: url("bgs/0.gif");}
+.c1 {background-image: url("bgs/1.gif");}
+.c2 {background-image: url("bgs/2.gif");}
+.c3 {background-image: url("bgs/3.gif");}
+.c4 {background-image: url("bgs/4.gif");}
+.c5 {background-image: url("bgs/5.gif");}
+.c6 {background-image: url("bgs/6.gif");}
+.c7 {background-image: url("bgs/7.gif");}
+.c8 {background-image: url("bgs/8.gif");}
+.c9 {background-image: url("bgs/9.gif");}
