@@ -29,9 +29,9 @@ $(document).ready( () => {
   let len = $("td").length;
 
   $("#print").click( () => {
-    $(".noprint").attr("type", "hidden");
+    $(".noprint").toggle();
     window.print();
-    $(".noprint").attr("type", "visible");
+    $(".noprint").toggle();
   });
 
   $("#generate").click( () => {
