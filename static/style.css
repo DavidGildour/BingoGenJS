@@ -7,9 +7,20 @@
   margin-bottom: 10px;
 }
 
-.table {
-  background-image: url("bgs/0.gif");
-  background-repeat: repeat;
+.bingo, .bingo td, .bingo tr, .bingo th {
+  padding: 0px;
+}
+
+thead.bingo tr{
+  height: inherit;
+}
+
+.bingo tr{
+  height: 144.1px;
+}
+
+.bingo th{
+  font-size: 24px;
 }
 
 .noprint {
@@ -25,22 +36,23 @@
   font-size: 9px;
 }
 
-thead.bingo tr{
-  height: inherit;
-}
-
-.bingo tr{
-  height: 144.1px;
-}
-
-.bingo th{
-  font-size: 24px;
-}
-
 .bingo td, .bingo th{
   width: 20%;
+}
+
+div.cell {
+  height: 144.1px;
+  width: 100%;
+  background-image: url("bgs/0.gif");
+  background-repeat: repeat;
   text-align: center;
-  vertical-align: middle;
+  padding-top: 62px;
+}
+
+div.head {
+  height: inherit;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 div.colourSample{
