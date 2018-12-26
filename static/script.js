@@ -37,10 +37,10 @@ $(document).ready( () => {
   $("#generate").click( () => {
     fields = shuffle(fields);
 
-    $("table").css("background-image", `url("../static/bgs/${getRandomInt(9)}.gif")`);
+    $("table.bingo").css("background-image", `url("../static/bgs/${getRandomInt(9)}.gif")`);
 
     for (let i = 0; i < len; i++){
-      $("td").eq(i).html(fields[i]);
+      $("table.bingo td").eq(i).html(fields[i]);
     }
   });
 });
